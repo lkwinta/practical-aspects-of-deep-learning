@@ -1,0 +1,26 @@
+[project]
+name = "practical-aspects-of-deep-learning"
+version = "1.0.0"
+description = ""
+authors = [{name = "Łukasz Kwinta (lkwinta)", email = "lukaszmind@gmail.com"}]
+readme = "README.md"
+
+requires-python = "==3.11.*"
+
+dependencies = [
+    "jupyter",
+    "matplotlib",
+    "pandas==2.*",
+    "keras",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit",
+    "ruff"
+]
+
+[tool.ruff.lint]
+ignore = [
+    "E731",  # lambda expressions
+]
