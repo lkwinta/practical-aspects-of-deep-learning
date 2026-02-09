@@ -5,13 +5,14 @@ description = ""
 authors = [{name = "Łukasz Kwinta (lkwinta)", email = "lukaszmind@gmail.com"}]
 readme = "README.md"
 
-requires-python = "==3.11.*"
+requires-python = "==3.12.*"
 
 dependencies = [
     "jupyter",
     "matplotlib",
     "pandas==2.*",
-    "keras",
+    "tensorflow",
+    "scikit-learn"
 ]
 
 [dependency-groups]
